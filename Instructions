@@ -25,3 +25,17 @@ use python's subprocess module
 
 here you can use subprocess without blocking
 https://stackoverflow.com/questions/16071866/non-blocking-subprocess-call
+
+example non blocking:
+'''
+import subprocess
+import time
+
+p = subprocess.Popen(['sleep', '10'])
+
+while p.poll() is None:
+    print('Still sleeping')
+    time.sleep(1)
+
+print('Not sleeping any longer.  Exited with returncode %d' % p.returncode)
+'''
