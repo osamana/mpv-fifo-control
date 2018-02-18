@@ -39,3 +39,6 @@ while p.poll() is None:
 
 print('Not sleeping any longer.  Exited with returncode %d' % p.returncode)
 '''
+
+# here's how to kill the subprocess
+https://stackoverflow.com/questions/4789837/how-to-terminate-a-python-subprocess-launched-with-shell-true
