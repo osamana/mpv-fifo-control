@@ -20,3 +20,5 @@ echo 'cycle pause' >> /path/to/dir/fifo
 
 make sure to upgrade youtube-dl
 https://github.com/rg3/youtube-dl/blob/master/README.md#how-do-i-update-youtube-dl
+
+use python's subprocess module
