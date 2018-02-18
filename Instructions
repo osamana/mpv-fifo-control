@@ -22,3 +22,6 @@ make sure to upgrade youtube-dl
 https://github.com/rg3/youtube-dl/blob/master/README.md#how-do-i-update-youtube-dl
 
 use python's subprocess module
+
+here you can use subprocess without blocking
+https://stackoverflow.com/questions/16071866/non-blocking-subprocess-call
