@@ -1,0 +1,21 @@
+list of commands
+https://github.com/mpv-player/mpv/blob/master/etc/input.conf
+
+link for mpv manual
+https://mpv.io/manual/master/#command-interface
+
+Terminal 1:
+# for process communication
+mkfifo /path/to/dir/fifo
+
+
+Terminal 2:
+mpv 'url/or playlist url' --no-video --input-file=/path/to/dir/fifo
+# it plays now ...
+
+Terminal 1:
+echo 'cycle pause' >> /path/to/dir/fifo
+# rest of commands in the above file
+
+make sure to upgrade youtube-dl
+https://github.com/rg3/youtube-dl/blob/master/README.md#how-do-i-update-youtube-dl
