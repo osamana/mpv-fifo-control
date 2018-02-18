@@ -11,6 +11,7 @@ mkfifo /path/to/dir/fifo
 
 Terminal 2:
 mpv 'url/or playlist url' --no-video --input-file=/path/to/dir/fifo
+# use --shuffle option
 # it plays now ...
 
 Terminal 1:
