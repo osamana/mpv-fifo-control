@@ -48,3 +48,13 @@ nohup command &
 
 # to kill mpv
 pkill mpv
+
+
+# test example 
+import os
+import signal
+import subprocess
+
+p = subprocess.Popen('nohup mpv \'https://www.youtube.com/watch?v=zupq0CPAQS8&list=RDMMzupq0CPAQS8\' --no-video --input-file=~/Desktop/fifo & > /dev/null 2>&1', shell=True)
+
+print "Process PID: " + str(p.pid)
