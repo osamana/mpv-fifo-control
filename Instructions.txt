@@ -45,3 +45,6 @@ https://stackoverflow.com/questions/4789837/how-to-terminate-a-python-subprocess
 
 to start a program in bk
 nohup command &
+
+# to kill mpv
+pkill mpv
