@@ -58,3 +58,7 @@ import subprocess
 p = subprocess.Popen('nohup mpv \'https://www.youtube.com/watch?v=zupq0CPAQS8&list=RDMMzupq0CPAQS8\' --no-video --input-file=~/Desktop/fifo & > /dev/null 2>&1', shell=True)
 
 print "Process PID: " + str(p.pid)
+
+
+# i used this to autostart my python script
+https://www.raspberrypi.org/forums/viewtopic.php?t=17051
